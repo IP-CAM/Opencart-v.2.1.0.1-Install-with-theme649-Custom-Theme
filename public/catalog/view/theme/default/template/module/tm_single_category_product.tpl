@@ -31,7 +31,7 @@
                     <?php if ($latest_products) { ?>
                         <li>
                             <a href="#tab-single-latest-<?php echo $module; ?>" role="tab"
-                               data-toggle="tab"><?php echo $heading_latest; ?></a>
+                               data-toggle="tab"><Novo></a>
                         </li>
                     <?php } ?>
                     <?php if ($special_products) { ?>
@@ -1812,4 +1812,3 @@
         </div>
     </div>
 </div>
-

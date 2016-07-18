@@ -767,9 +767,14 @@ header .top-line .fright {
 }
 header .box-language, header .box-currency, header .top-menu, header address {
   display: inline-block;
+
+}
+header .box-currency {
+  display: none;
 }
 header .box-language + .box-currency,
 header .box-currency + .box-language {
+  display: none;
   margin-left: 18px;
   margin-top: 2px;
 }
@@ -1165,7 +1170,7 @@ header .cart_button i {
                       Content styles
 =========================================================*/
 #page {
-  background: #f2f4f6;
+  background: #eee;
   overflow: hidden;
 }
 
@@ -2485,6 +2490,7 @@ aside .row {
   line-height: 24px;
   font-weight: 700;
   text-transform: uppercase;
+  display: none;
 }
 .product-thumb .image > .quickview:hover {
   background: #ef7a57;
@@ -3501,8 +3507,8 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 
 .banners > div .s-desc {
   position: absolute;
-  bottom: 28px;
-  left: 30px;
+  bottom: 17px;
+  left: 21px;
   text-align: left;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -3510,16 +3516,16 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   transition: all 0.5s ease;
 }
 .banners > div .s-desc h2 {
-  font-size: 46px;
+  font-size: 40px;
   color: #ef7a57;
   margin-bottom: 5px;
 }
 .banners > div .s-desc h2 span {
-  margin-top: -5px;
+  margin-top: 0px;
   text-transform: uppercase;
   display: block;
   font-weight: 500;
-  font-size: 36px;
+  font-size: 20px;
   color: #20282e;
 }
 .banners > div .s-desc h2 + span {
@@ -3592,7 +3598,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
   background-size: cover;
 }
 .box_html.custom-block .block-cnt h2 {
-  font-size: 77px;
+  font-size: 54px;
   line-height: 70px;
   color: #fff;
   text-transform: uppercase;
@@ -3605,7 +3611,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 }
 .box_html.custom-block .block-cnt h2 span {
   display: block;
-  font-size: 37px;
+  font-size: 33px;
   line-height: 40px;
 }
 .box_html.custom-block .block-cnt h2 + span {
@@ -3623,6 +3629,7 @@ input[type="checkbox"][name="agree"] + label:before, input[type="checkbox"][name
 }
 .box_html.custom-block .row + .row .block-cnt h2 {
   font-size: 57px;
+  margin-top: 31px;
 }
 .box_html.info-block .block-cnt i {
   margin-top: 6px;
@@ -4125,6 +4132,7 @@ aside #blog-search a:hover {
 }
 .single-category .product-thumb {
   margin-top: -30px;
+  height: 415px;
 }
 .single-category .name__aside {
   display: none;
