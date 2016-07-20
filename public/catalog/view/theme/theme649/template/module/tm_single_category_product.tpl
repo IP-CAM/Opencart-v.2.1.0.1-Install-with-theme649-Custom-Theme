@@ -366,6 +366,7 @@
                                                                         <span
                                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                                     <?php } ?>
+                                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                                     <?php if ($product['tax']) { ?>
                                                                         <span
                                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -473,6 +474,7 @@
                                                         <span
                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                     <?php } ?>
+                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                     <?php if ($product['tax']) { ?>
                                                         <span
                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -804,6 +806,7 @@
                                                                         <span
                                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                                     <?php } ?>
+                                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                                     <?php if ($product['tax']) { ?>
                                                                         <span
                                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -910,6 +913,7 @@
                                                         <span
                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                     <?php } ?>
+                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                     <?php if ($product['tax']) { ?>
                                                         <span
                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -1241,6 +1245,7 @@
                                                                         <span
                                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                                     <?php } ?>
+                                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                                     <?php if ($product['tax']) { ?>
                                                                         <span
                                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -1347,6 +1352,7 @@
                                                         <span
                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                     <?php } ?>
+                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                     <?php if ($product['tax']) { ?>
                                                         <span
                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -1678,6 +1684,7 @@
                                                                         <span
                                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                                     <?php } ?>
+                                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                                     <?php if ($product['tax']) { ?>
                                                                         <span
                                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
@@ -1784,6 +1791,7 @@
                                                         <span
                                                             class="price-old"><?php echo $product['price']; ?></span>
                                                     <?php } ?>
+                                                    <?php include $_SERVER['DOCUMENT_ROOT'] . '/catalog/view/theme/theme649/parcelamento.php'; ?>
                                                     <?php if ($product['tax']) { ?>
                                                         <span
                                                             class="price-tax"><?php echo $text_tax; ?> <?php echo $product['tax']; ?></span>
