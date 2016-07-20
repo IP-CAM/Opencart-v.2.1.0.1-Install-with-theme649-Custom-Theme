@@ -1903,7 +1903,7 @@ header .cart_button i {
   font-size: 16px;
   line-height: 24px;
   vertical-align: bottom;
-  color: #ef7a57;
+  color: #333;
 }
 .product-thumb .price-old, .product-thumb .price s, .table-responsive .price-old, .table-responsive .price s {
   font-size: 12px;
@@ -4132,7 +4132,7 @@ aside #blog-search a:hover {
 }
 .single-category .product-thumb {
   margin-top: -30px;
-  height: 415px;
+  height: 444px;
 }
 .single-category .name__aside {
   display: none;
