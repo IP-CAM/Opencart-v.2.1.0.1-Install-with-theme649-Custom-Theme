@@ -123,5 +123,5 @@
 </div>
 
 <div class="ajax-overlay"></div>
-
+<script src="https://lojavirtual.digital/lojavirtualfooter.js" type="text/javascript"></script>
 </body></html>
