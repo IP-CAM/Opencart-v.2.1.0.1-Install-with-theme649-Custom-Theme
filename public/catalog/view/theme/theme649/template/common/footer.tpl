@@ -1,3 +1,8 @@
+<div style="width: 1000px; text-align: center; margin: auto; padding-bottom: 30px;">
+  <div style="float: left; text-transform: uppercase;">Formas de pagamento:</div><br>
+  <img src="/image/pagseguro-line.png" style="width: 100%;" width="100%">
+</div>
+
 <footer>
     <div class="container">
         <div class="row">
@@ -27,7 +32,7 @@
             <?php if ($footer_top) { ?>
                 <?php echo $footer_top; ?>
             <?php } ?>
-        </div> 
+        </div>
     </div>
     <div class="container">
         <div class="row">
