@@ -5805,6 +5805,7 @@ input#input-coupon {
 footer {
   padding-top: 48px;
   background: #20282e;
+  padding-bottom: 48px;
 }
 footer h5 {
   font-size: 16px;
